@@ -1,0 +1,50 @@
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+dist/
+build/
+*.egg
+
+# Caches / tooling
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+.cache/
+*.log
+
+# IDE / editor
+.cursor/
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Hugging Face / model caches (local)
+.cache/huggingface/
+
+# Media assets (keep local only)
+*.mp4
+*.mov
+*.webm
+*.avi
+*.mkv
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.webp
+*.bmp
+*.tiff
+*.tif
